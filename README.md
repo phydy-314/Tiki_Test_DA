@@ -1,44 +1,45 @@
 # TikiNow
 
-Dự án phân tích dữ liệu cho TikiNow, tập trung vào chuẩn bị dữ liệu và tạo dashboard báo cáo.
+Data analysis project for TikiNow, focusing on data preparation and dashboard reporting.
 
-## Mô tả
+## Description
 
-Dự án này sử dụng Python và Jupyter Notebook để xử lý và phân tích dữ liệu. Bao gồm các bước chuẩn bị dữ liệu từ file thô, tạo ra dữ liệu sạch, và xây dựng dashboard với Power BI.
+This project uses Python and Jupyter Notebook for data processing and analysis. It includes steps for preparing data from raw files, generating clean data, and building dashboards with Power BI.
 
-## Cài đặt
+## Installation
 
-1. Clone repository này.
-2. Tạo virtual environment:
+1. Clone this repository.
+2. Create a virtual environment:
    ```
    python -m venv .venv
    ```
-3. Kích hoạt virtual environment:
+3. Activate the virtual environment:
    - Windows: `.venv\Scripts\activate`
    - Linux/Mac: `source .venv/bin/activate`
-4. Cài đặt dependencies:
+4. Install dependencies:
    ```
    pip install -r requirements.txt
    ```
 
-## Sử dụng
+## Usage
 
-1. Mở Jupyter Notebook:
+1. Open Jupyter Notebook:
    ```
    jupyter notebook
    ```
-2. Chạy file `data_preparation.ipynb` để chuẩn bị dữ liệu.
-3. Xem dashboard trong thư mục `dashboard/` với file Power BI (.pbix) và các hình ảnh phân tích.
+2. Run the `data_preparation.ipynb` file to prepare the data.
+3. View the dashboard in the `dashboard/` folder with the Power BI file (.pbix) and analysis images.
 
-## Cấu trúc dự án
+## Project Structure
 
-- `data_preparation.ipynb`: Notebook chuẩn bị và phân tích dữ liệu.
-- `requirements.txt`: Danh sách dependencies Python.
-- `dashboard/`: Chứa dashboard Power BI và hình ảnh phân tích.
-- `data/`: Thư mục dữ liệu.
-  - `raw/`: Dữ liệu thô.
-  - `clean/`: Dữ liệu đã xử lý.
+- `data_preparation.ipynb`: Notebook for data preparation and analysis.
+- `requirements.txt`: List of Python dependencies.
+- `dashboard/`: Contains Power BI dashboard and analysis images.
+- `data/`: Data folder.
+  - `raw/`: Raw data.
+  - `clean/`: Processed data.
 
-## Tác giả
+## Author
 
-[Nguyen Ngoc Phuong Vy]
+Nguyen Ngoc Phuong Vy
+
