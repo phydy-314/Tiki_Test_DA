@@ -2,6 +2,10 @@
 
 Data analysis project for TikiNow, focusing on data preparation and dashboard reporting.
 
+## Data Dictionary
+
+Link: https://docs.google.com/spreadsheets/d/1vLb_IZf37HZUZauVkAFyJo079rYVjSgFN-6-ZIpdpD4/edit?usp=sharing
+
 ## Description
 
 This project uses Python and Jupyter Notebook for data processing and analysis. It includes steps for preparing data from raw files, generating clean data, and building dashboards with Power BI.
